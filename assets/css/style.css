@@ -3,3 +3,9 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+/*----------------------------------------NavBar---*/
+
+.navbar {
+    opacity: 0.8;
+}
