@@ -9,3 +9,8 @@ body {
 .navbar {
     opacity: 0.8;
 }
+
+.map {
+    background-size: 100;
+    background-color: gray;
+}
