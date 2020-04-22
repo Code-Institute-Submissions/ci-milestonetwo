@@ -12,5 +12,16 @@ body {
 
 .flags {
     height: 50px;
-    width: 
+    width: 50px;
 }
+
+/*----------------------------------------Map---*/
+
+div#map {
+    min-height: 360px;
+}
+
+.bg-color-map {
+    background-color: gray;
+}
+
