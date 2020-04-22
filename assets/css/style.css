@@ -18,10 +18,12 @@ body {
 /*----------------------------------------Map---*/
 
 div#map {
-    min-height: 360px;
+    min-height: 400px;
 }
 
 .bg-color-map {
     background-color: gray;
+    opacity: 0.8;
+    margin-top: 20px;
 }
 
