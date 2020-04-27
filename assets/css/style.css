@@ -1,14 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+/*----------------------------------------Body---*/
+
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+/*----------------------------------------Background Image---*/
 
 body, html {
   height: 100%;
 }
 
-#bg {
+#bg {  
   position: fixed; 
   top: -50%; 
   left: -50%; 
@@ -33,11 +37,11 @@ body, html {
     opacity: 0.8;
 }
 
-/*.img {
+/*----------------------------------------Logo---*/
+
+.logo {
     object-fit: cover;
-    height: 150px;
-    width: 150px;
-}*/
+}
 
 /*.italy {
     object-fit: cover;
