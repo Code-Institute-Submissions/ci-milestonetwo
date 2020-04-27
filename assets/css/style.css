@@ -10,17 +10,21 @@ body {
     opacity: 0.8;
 }
 
+.logo {
+    background-color: black;
+}
+
 /*.img {
     object-fit: cover;
     height: 150px;
     width: 150px;
 }*/
 
-.italy {
+/*.italy {
     object-fit: cover;
     display: flex;
 
-}
+}*/
 
 /*----------------------------------------Map---*/
 
