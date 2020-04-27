@@ -14,6 +14,7 @@ body, html {
   left: -50%; 
   width: 200%; 
   height: 200%;
+  opacity: 40%;
 }
 #bg img {
   position: absolute; 
