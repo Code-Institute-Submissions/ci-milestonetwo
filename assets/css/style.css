@@ -10,10 +10,6 @@ body {
     opacity: 0.8;
 }
 
-.logo {
-    background-color: black;
-}
-
 /*.img {
     object-fit: cover;
     height: 150px;
@@ -33,7 +29,7 @@ div#map {
 }
 
 .bg-color-map {
-    background-color: gray;
+    background-color:white;
     opacity: 0.8;
     margin-top: 20px;
 }
