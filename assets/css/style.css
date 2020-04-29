@@ -70,6 +70,10 @@ footer {
     margin: 0;
 }
 
-.inline-block {
+#footer-details {
     display: inline;
 }
+
+/*.inline-block {
+    display: inline;
+}*/
