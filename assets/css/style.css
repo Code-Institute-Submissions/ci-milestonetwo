@@ -38,21 +38,17 @@ body, html {
     opacity: 0.8;
 }
 
-.navbar-custom {
+/*.navbar-custom {
     background-color: #0d2ff0;
-}
+}*/
 
 /*----------------------------------------Logo---*/
 
-.logo {
+#logo {
     object-fit: cover;
+    position: relative;
+    opacity: 1;
 }
-
-/*.italy {
-    object-fit: cover;
-    display: flex;
-
-}*/
 
 /*----------------------------------------Map---*/
 
