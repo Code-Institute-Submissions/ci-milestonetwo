@@ -61,3 +61,15 @@ div#map {
     margin-top: 20px;
 }
 
+/*----------------------------------------Footer---*/
+
+footer {
+    background-color: #0d2ff0;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+.inline-block {
+    display: inline;
+}
