@@ -68,6 +68,17 @@ body, html {
     padding: 2px;
 }
 
+.float-img2 {
+    width: 350px;
+    height: 270px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    border: solid black 1px;
+    border-radius: 5px;
+    padding: 2px;
+}
+
 /*----------------------------------------NavBar---*/
 
 .navbar {
