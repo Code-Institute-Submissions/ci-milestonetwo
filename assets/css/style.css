@@ -24,7 +24,6 @@ body, html {
 }
 
 #bg {  
-  /*pointer-events: none;*/
   position: fixed; 
   top: -50%; 
   left: -50%; 
@@ -68,8 +67,13 @@ div#map {
 }
 
 .bg-color-map {
-    opacity: 0.8;
+    opacity: 1;
     margin-top: 20px;
+}
+
+.bg-color-hotel {
+    opacity: 1;
+    margin-top: 50px;
 }
 
 /*----------------------------------------Footer---*/
