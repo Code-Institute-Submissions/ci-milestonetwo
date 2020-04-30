@@ -17,7 +17,7 @@ body {
     position: relative;
     line-height: 25px;
     text-shadow: black;
-    text-align: center;
+    text-align: left;
 }
 
 /*----------------------------------------Background Image/Images---*/
@@ -44,6 +44,16 @@ body, html {
   min-width: 50%;
   min-height: 50%;
 }
+
+.float-img {
+    width: 350px;
+    height: 270px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    border: solid black 1px;
+    border-radius: 5px;
+    padding: 2px;
 
 /*----------------------------------------NavBar---*/
 
@@ -92,11 +102,3 @@ footer {
     display: inline;
 }
 
-.float-img {
-    width: 350px;
-    height: 250px;
-    float: left;
-    margin-right: 10px;
-    margin-bottom: 5px;
-    border: solid black 1px;
-    padding: 2px;
