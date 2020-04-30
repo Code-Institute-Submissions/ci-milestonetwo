@@ -6,6 +6,17 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+#heading-intro {
+    color: black;
+    position: relative;
+    margin-top: 20px;
+}
+
+#p-intro {
+    color: black;
+    position: relative;
+}
+
 /*----------------------------------------Background Image---*/
 
 body, html {
@@ -22,7 +33,7 @@ body, html {
   opacity: 40%;
 }
 #bg img {
-  position: absolute; 
+  position: absolute;
   top: 0; 
   left: 0; 
   right: 0; 
