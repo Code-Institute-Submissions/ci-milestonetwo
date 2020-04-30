@@ -93,6 +93,67 @@ body, html {
 #ireland-img {
     width: 110px;
     height: 75px;
+    text-align: center;
+}
+
+.float-img4 {
+    width: 350px;
+    height: 270px;
+    float: right;
+    margin-top: 55px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    border: solid black 1px;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.float-img5 {
+    width: 350px;
+    height: 270px;
+    float: left;
+    margin-top: 5px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    border: solid black 1px;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.float-img6 {
+    width: 350px;
+    height: 270px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    border: solid black 1px;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.float-img7 {
+    width: 350px;
+    height: 270px;
+    float: left;
+    margin-top: 5px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    border: solid black 1px;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.float-img8 {
+    width: 350px;
+    height: 270px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-bottom: 60px;
+    border: solid black 1px;
+    border-radius: 5px;
+    padding: 2px;
 }
 
 /*----------------------------------------NavBar---*/
