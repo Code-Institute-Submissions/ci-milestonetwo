@@ -15,6 +15,9 @@ body {
 #p-intro {
     color: black;
     position: relative;
+    line-height: 25px;
+    text-shadow: black;
+    text-align: center;
 }
 
 /*----------------------------------------Background Image---*/
