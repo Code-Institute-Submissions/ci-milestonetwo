@@ -156,6 +156,54 @@ body, html {
     padding: 2px;
 }
 
+.float-img9 {
+    width: 350px;
+    height: 270px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    border: solid black 1px;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.float-img10 {
+    width: 350px;
+    height: 270px;
+    float: left;
+    margin-top: 25px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    border: solid black 1px;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.float-img11 {
+    width: 350px;
+    height: 270px;
+    float: right;
+    margin-top: 80px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    border: solid black 1px;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.float-img12 {
+    width: 350px;
+    height: 270px;
+    float: left;
+    margin-top: 5px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    border: solid black 1px;
+    border-radius: 5px;
+    padding: 2px;
+}
+
 /*----------------------------------------NavBar---*/
 
 .navbar {
