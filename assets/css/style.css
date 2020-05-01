@@ -264,6 +264,18 @@ body, html {
     padding: 2px;
 }
 
+.float-img18 {
+    width: 350px;
+    height: 270px;
+    float: left;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    border: solid black 1px;
+    border-radius: 5px;
+    padding: 2px;
+}
+
 /*----------------------------------------NavBar---*/
 
 .navbar {
