@@ -91,11 +91,11 @@ body, html {
     padding: 2px;
 }
 
-#ireland-img {
+/*#ireland-img {
     width: 110px;
     height: 75px;
     text-align: center;
-}
+}*/
 
 .float-img4 {
     width: 350px;
@@ -290,9 +290,10 @@ body, html {
 /*----------------------------------------Logo---*/
 
 #logo {
-    object-fit: cover;
     position: relative;
-    opacity: 1;
+    /*opacity: 1;*/
+    background-blend-mode: multiply;
+    /*pointer-events: none;*/
 }
  
 /*----------------------------------------Map---*/
