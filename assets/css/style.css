@@ -291,10 +291,34 @@ body, html {
 
 #logo {
     position: relative;
+    align-items: center;
     /*opacity: 1;*/
-    background-blend-mode: multiply;
+    /*background-blend-mode: multiply;*/
     /*pointer-events: none;*/
 }
+
+/*#england {
+    margin-right: 75px;
+    background-blend-mode: multiply;
+}
+
+#france {
+    margin-right: 75px;
+}
+
+#ireland {
+    margin-right: 75px;
+}
+
+#italy {
+    margin-right: 75px;
+}
+
+#scotland {
+    margin-right: 75px;
+}*/
+
+
  
 /*----------------------------------------Map---*/
 
