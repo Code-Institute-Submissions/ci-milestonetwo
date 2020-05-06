@@ -312,6 +312,12 @@ div#map {
     margin-top: 50px;
 }
 
+/*----------------------------------------Graphs---*/
+
+#commitment-by-programme-name {
+    position: relative;
+}
+
 /*----------------------------------------Footer---*/
 
 footer {

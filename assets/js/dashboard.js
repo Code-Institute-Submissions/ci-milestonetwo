@@ -5,14 +5,14 @@ function makeGraphs(data) {
     
     const COUNTRY = 'Country';
     const OUTRIGHT_WINS = 'Outright Wins';
-    const ENDDATE_KEY = 'End Date';
-    const STARTDATE_KEY = 'Start Date';
-    const LEAD_APPLICATION_KEY = 'Lead Applicant';
-    const PROGRAMME_NAME_KEY = 'Programme Name';
-    const PROPOSA_NAME_KEY = 'Proposal ID';
-    const RESERVED_BODY_KEY = 'Research Body';
-    const RESEARCH_BODY_KEY = 'Research Body';
-    const TOTAL_COMMITMENT_KEY = 'Revised Total Commitment (including overhead)';
+    const GRAND_SLAMS = 'Grand Slams';
+    const TRIPLE_CROWNS = 'Triple Crowns';
+    const WOODEN_SPOONS = 'Wooden Spoons';
+    const HEINEKEN_CUP_WINS = 'Heineken Cup Wins';
+    const HEINEKEN_CUP_RUNNER_UPS = 'Heineken Cup Runner Ups';
+    const POPULATION = 'Population';
+    const TOTAL_PLAYERS = 'Total Players';
+    const REGISTERED_PLAYERS = 'Registered Players';
     const RESEARCH_TITLE_KEY = 'Title of Research';
 
     var parseDate = d3.timeParse("%d/%m/%Y");
@@ -24,16 +24,16 @@ function makeGraphs(data) {
     console.log(data);
 
     // data.forEach((d) => {
-    //     d[ENDDATE_KEY] = parseDate(d[ENDDATE_KEY]);
+    //     d[COUNTRY] = parseDate(d[COUNTRY]);
     //     d[STARTDATE_KEY] = parseDate(d[STARTDATE_KEY]);
     //     d[TOTAL_COMMITMENT_KEY] = Number(d[TOTAL_COMMITMENT_KEY].replace(/[^0-9.-]+/g,""));
     // });
     
     var ndx = crossfilter(data);
     var outrightWinsDimension = ndx.dimension((d) => d[OUTRIGHT_WINS]);
-    //var commitmentSumGroup = programmeDimension.group().reduceSum((d) => d[TOTAL_COMMITMENT_KEY]);
+    // var commitmentSumGroup = programmeDimension.group().reduceSum((d) => d[TOTAL_COMMITMENT_KEY]);
     
-    //console.log(commitmentSumGroup.all());
+    // console.log(commitmentSumGroup.all());
     
     commitmentByProgrammeNameChart
         .width(768)
