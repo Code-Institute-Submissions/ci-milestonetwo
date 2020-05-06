@@ -1,39 +1,55 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Rugby City Travel
 
-Welcome mattjboland,
+![alt text]
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+## UX
 
-## Gitpod Reminders
+**I used the following features on the website for the user to achieve these goals**
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Wireframe Mockups
 
-`python3 -m http.server`
+## Features
 
-A blue button should appear to click: *Make Public*,
+[Home Page]
 
-Another blue button should appear to click: *Open Browser*.
+## Technologies Used
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* HTML - This is used as the layout to build the website
+* CSS - This is used to style the website
+* [Bootstrap](https://getbootstrap.com/) - This is used for the layout and also used grids/rows for the responsive design
+* [Font Awesome](https://fontawesome.com/) - This is used for some icons in the website
 
-A blue button should appear to click: *Make Public*,
+## Testing
 
-Another blue button should appear to click: *Open Browser*.
+I have thoroughly tested the website and was unable to find any bad links. Everything is working as is supposed to. 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+## Issues and Bugs
 
-## Updates Since The Instructional Video
+## Validation
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+I have checked the code on [https://validator.w3.org/nu/#textarea] 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Deployment
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+I deployed my website via GitHub pages and is currently published at 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Credits
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+**Content**
 
---------
 
-Happy coding!
+**Media Content**
+
+
+
+## Acknowledgements
+
+* [Code Institute](https://codeinstitute.net/) I used parts of code from the modules, coursework and projects. All
+    the media, pictures, audio clips and video were supplied by Code Institute
+* [Bootstrap](https://getbootstrap.com/) I used Bootstraps Navbar, Carousel and Form examples in my website
+* [W3schools](https://www.w3schools.com/) I used this website when I encountered some problems with my code
+* [Slack](https://slack.com/intl/en-ie/) I also used this website for help on code and errors
+* [StackOverflow](https://stackoverflow.com/) This website was used as a reference for help and tips
+* Guido Cecilio, Guido is my mentor and his help and patience on this project was incredible. I learned so much from 
+our meetings and without his knowledge and information it would have been an impossible task. I am so grateful for his 
+help.
