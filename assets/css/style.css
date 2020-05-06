@@ -352,12 +352,5 @@ footer {
 }
 
 #footer-details {
-    display: inline;
-}
-
-#ireland-stat {
-    width: 300px;
-    height: 300px;
-    margin: 0;
-    padding: 0;
+    margin: 20px;
 }
