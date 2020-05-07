@@ -1,10 +1,12 @@
 d3.csv("data/kaggle-six-nations.csv").then(makeGraphs);
 
 function makeGraphs(data) {
-    var commitmentByProgrammeNameChart = dc.barChart('#total-outright-wins');
+    var chart = dc.barChart('#total-outright-wins');
     
     const COUNTRY = 'Country';
+    const COUNTRY_KEY = 'country';
     const OUTRIGHT_WINS = 'Outright Wins';
+    const OUTRIGHT_WINS_KEY = 'outrightWins';
     const GRAND_SLAMS = 'Grand Slams';
     const TRIPLE_CROWNS = 'Triple Crowns';
     const WOODEN_SPOONS = 'Wooden Spoons';
@@ -18,7 +20,8 @@ function makeGraphs(data) {
     var parseDate = d3.timeParse("%d/%m/%Y");
   
     data.forEach((d) => {
-        d[OUTRIGHT_WINS] = Number(d[OUTRIGHT_WINS]);
+        d[COUNTRY_KEY] = d[COUNTRY];
+        d[OUTRIGHT_WINS_KEY] = Number(d[OUTRIGHT_WINS]);
     });
 
     console.log(data);
@@ -34,8 +37,9 @@ function makeGraphs(data) {
     // var commitmentSumGroup = programmeDimension.group().reduceSum((d) => d[TOTAL_COMMITMENT_KEY]);
     
     // console.log(commitmentSumGroup.all());
+    var g = groupBy(outrightWinsDimension.top(Infinity), OUTRIGHT_WINS_KEY);
     
-    commitmentByProgrammeNameChart
+    chart
         .width(386)
         .height(240)
         .x(d3.scaleBand())
@@ -46,6 +50,17 @@ function makeGraphs(data) {
         .dimension(outrightWinsDimension)
         .barPadding(0.1)
         .outerPadding(0.05)
-        .group(outrightWinsDimension.group())
-    commitmentByProgrammeNameChart.render();
+        .group(g)
+    chart.render();
+}
+
+function groupBy(data, column) {
+    return {
+        all: function() {
+            return data.reduce((acc, currentValue) => {
+                acc.push({'key': currentValue.country, 'value': currentValue[column]});
+                return acc;
+            }, []);
+        }
+    };
 }
