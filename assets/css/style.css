@@ -291,7 +291,6 @@ body, html {
 
 #logo {
     position: relative;
-    align-items: flex-end;
     margin-top: 20px;
     /*opacity: 1;*/
     /*background-blend-mode: multiply;*/
@@ -299,28 +298,25 @@ body, html {
 }
 
 /*#england {
-    margin-right: 75px;
-    background-blend-mode: multiply;
+    margin-right: 35px;
 }
 
 #france {
-    margin-right: 75px;
+    margin-right: 35px;
 }
 
 #ireland {
-    margin-right: 75px;
+    margin-right: 35px;
 }
 
 #italy {
-    margin-right: 75px;
+    margin-right: 35px;
 }
 
 #scotland {
-    margin-right: 75px;
+    margin-right: 35px;
 }*/
 
-
- 
 /*----------------------------------------Map---*/
 
 div#map {
