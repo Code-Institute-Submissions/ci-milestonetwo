@@ -1,7 +1,7 @@
 d3.csv("data/kaggle-six-nations.csv").then(makeGraphs);
 
 function makeGraphs(data) {
-    var commitmentByProgrammeNameChart = dc.barChart('#commitment-by-programme-name');
+    var commitmentByProgrammeNameChart = dc.barChart('#total-outright-wins');
     
     const COUNTRY = 'Country';
     const OUTRIGHT_WINS = 'Outright Wins';
@@ -36,13 +36,13 @@ function makeGraphs(data) {
     // console.log(commitmentSumGroup.all());
     
     commitmentByProgrammeNameChart
-        .width(768)
-        .height(480)
+        .width(386)
+        .height(240)
         .x(d3.scaleBand())
         .xUnits(dc.units.ordinal)
         .brushOn(false)
-        .xAxisLabel(OUTRIGHT_WINS)
-        .yAxisLabel("Total Commitmemt")
+        .xAxisLabel(COUNTRY)
+        .yAxisLabel(OUTRIGHT_WINS)
         .dimension(outrightWinsDimension)
         .barPadding(0.1)
         .outerPadding(0.05)
