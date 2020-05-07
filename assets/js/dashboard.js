@@ -51,6 +51,7 @@ function makeGraphs(data) {
         .barPadding(0.1)
         .outerPadding(0.05)
         .group(g)
+        .useViewBoxResizing(true)
     chart.render();
 }
 

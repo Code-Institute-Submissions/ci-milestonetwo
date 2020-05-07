@@ -295,6 +295,10 @@ body, html {
     /*opacity: 1;*/
     /*background-blend-mode: multiply;*/
     /*pointer-events: none;*/
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    list-style: none;
 }
 
 /*#england {
