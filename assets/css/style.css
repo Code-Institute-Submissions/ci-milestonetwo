@@ -291,7 +291,8 @@ body, html {
 
 #logo {
     position: relative;
-    align-items: center;
+    align-items: flex-end;
+    margin-top: 20px;
     /*opacity: 1;*/
     /*background-blend-mode: multiply;*/
     /*pointer-events: none;*/
