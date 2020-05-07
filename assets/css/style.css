@@ -342,6 +342,18 @@ div#map {
     position: relative;
 }
 
+#total-grand-slams {
+    position: relative;
+}
+
+#population {
+    position: relative;
+}
+
+#total-percent-that-plays {
+    position: relative;
+}
+
 /*----------------------------------------Footer---*/
 
 footer {
