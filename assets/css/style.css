@@ -371,6 +371,14 @@ div#map {
     width: 360px;
 }
 
+#heineken-cup-wins {
+    position: relative;
+    margin-right: 40px;
+    margin-top: 50px;
+    height: 594px;
+    width: 360px;
+}
+
 /*----------------------------------------Footer---*/
 
 footer {
