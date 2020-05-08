@@ -4,7 +4,7 @@ function makeGraphs(data) {
     var chart = dc.barChart('#total-outright-wins');
     var chart,two = dc.barChart('#total-grand-slams');
     var chart,three = dc.barChart('#triple-crowns');
-    // var chart,four = dc.barChart('#');
+    var chart,four = dc.barChart('#wooden-spoons');
     
     const COUNTRY = 'Country';
     const COUNTRY_KEY = 'country';
@@ -50,12 +50,12 @@ function makeGraphs(data) {
 
      console.log(data);
 
-    // data.forEach((d) => {
-    //    d[COUNTRY_KEY] = d[COUNTRY];
-    //    d[TOTAL_PLAYERS_KEY] = Number(d[TOTAL_PLAYERS]);
-    //});
+    data.forEach((d) => {
+        d[COUNTRY_KEY] = d[COUNTRY];
+        d[WOODEN_SPOONS_KEY] = Number(d[WOODEN_SPOONS]);
+    });
 
-    // console.log(data);
+     console.log(data);
 
     // data.forEach((d) => {
     //     d[COUNTRY] = parseDate(d[COUNTRY]);
@@ -66,15 +66,15 @@ function makeGraphs(data) {
     var ndx = crossfilter(data);
     var outrightWinsDimension = ndx.dimension((d) => d[OUTRIGHT_WINS]);
     var grandSlamsDimension = ndx.dimension((d) => d[GRAND_SLAMS]);
-     var tripleCrownsDimension = ndx.dimension((d) => d[TRIPLE_CROWNS]);
-    // var totalPlayersDimension = ndx.dimension((d) => d[TOTAL_PLAYERS]);
+    var tripleCrownsDimension = ndx.dimension((d) => d[TRIPLE_CROWNS]);
+    var woodenSpoonsDimension = ndx.dimension((d) => d[WOODEN_SPOONS]);
     // var commitmentSumGroup = programmeDimension.group().reduceSum((d) => d[TOTAL_COMMITMENT_KEY]);
     
     // console.log(commitmentSumGroup.all());
     var g = groupBy(outrightWinsDimension.top(Infinity), OUTRIGHT_WINS_KEY);
     var h = groupBy(grandSlamsDimension.top(Infinity), GRAND_SLAMS_KEY);
     var i = groupBy(tripleCrownsDimension.top(Infinity), TRIPLE_CROWNS_KEY);
-    // var j = groupBy(Dimension.top(Infinity), );
+    var j = groupBy(woodenSpoonsDimension.top(Infinity), WOODEN_SPOONS_KEY);
     
     chart
         .width(384)
@@ -121,20 +121,20 @@ function makeGraphs(data) {
         .useViewBoxResizing(true)
     chart,three.render();
 
-    //chart,four
-    //    .width(386)
-    //    .height(240)
-    //    .x(d3.scaleBand())
-    //    .xUnits(dc.units.ordinal)
-    //    .brushOn(false)
-    //    .xAxisLabel(COUNTRY)
-    //    .yAxisLabel()
-    //    .dimension(Dimension)
-    //    .barPadding(0.1)
-    //    .outerPadding(0.05)
-    //    .group()
-    //    .useViewBoxResizing(true)
-    //chart,four.render();
+    chart,four
+        .width(386)
+        .height(240)
+        .x(d3.scaleBand())
+        .xUnits(dc.units.ordinal)
+        .brushOn(false)
+        .xAxisLabel(COUNTRY)
+        .yAxisLabel(WOODEN_SPOONS)
+        .dimension(woodenSpoonsDimension)
+        .barPadding(0.1)
+        .outerPadding(0.05)
+        .group(j)
+        .useViewBoxResizing(true)
+    chart,four.render();
 
 }
 

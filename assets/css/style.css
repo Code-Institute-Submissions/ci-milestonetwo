@@ -363,6 +363,14 @@ div#map {
     width: 360px;
 }
 
+#wooden-spoons {
+    position: relative;
+    margin-right: 40px;
+    margin-top: 50px;
+    height: 594px;
+    width: 360px;
+}
+
 /*----------------------------------------Footer---*/
 
 footer {
