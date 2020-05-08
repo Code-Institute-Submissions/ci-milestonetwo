@@ -106,7 +106,7 @@ function makeGraphs(data) {
         .yAxisLabel(OUTRIGHT_WINS)
         .dimension(outrightWinsDimension)
         .barPadding(0.1)
-        .outerPadding(5)
+        .outerPadding(0.05)
         .group(g)
         .useViewBoxResizing(true)
     chart.render();
