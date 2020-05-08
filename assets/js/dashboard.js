@@ -1,4 +1,8 @@
+// Get information form csv file
+
 d3.csv("data/kaggle-six-nations.csv").then(makeGraphs);
+
+// Add variables for each chart 1 - 6
 
 function makeGraphs(data) {
     var chart = dc.barChart('#total-outright-wins');
@@ -7,6 +11,8 @@ function makeGraphs(data) {
     var chart,four = dc.barChart('#wooden-spoons');
     var chart,five = dc.barChart('#heineken-cup-wins');
     var chart,six = dc.barChart('#heineken-cup-runner-ups');
+
+// Add const value for each piece of information  
     
     const COUNTRY = 'Country';
     const COUNTRY_KEY = 'country';
@@ -28,6 +34,8 @@ function makeGraphs(data) {
     // const TOTAL_PLAYERS_KEY = 'totalPlayers'
     // const REGISTERED_PLAYERS = 'Registered Players';
     // const REGISTERED_PLAYERS_KEY = 'registeredPlayers';
+
+// Log data for each value to be determined in each graph    
   
     data.forEach((d) => {
         d[COUNTRY_KEY] = d[COUNTRY];
@@ -70,6 +78,8 @@ function makeGraphs(data) {
     });
 
     console.log(data);
+
+// Set crossfilters     
     
     var ndx = crossfilter(data);
     var outrightWinsDimension = ndx.dimension((d) => d[OUTRIGHT_WINS]);
@@ -85,6 +95,8 @@ function makeGraphs(data) {
     var j = groupBy(woodenSpoonsDimension.top(Infinity), WOODEN_SPOONS_KEY);
     var k = groupBy(heinekenCupWinsDimension.top(Infinity), HEINEKEN_CUP_WINS_KEY);
     var l = groupBy(heinekenCupRunnerUpsDimension.top(Infinity), HEINEKEN_CUP_RUNNER_UPS_KEY);
+
+// Chart 1    
     
     chart
         .width(384)
@@ -101,6 +113,8 @@ function makeGraphs(data) {
         .useViewBoxResizing(true)
     chart.render();
 
+// Chart 2
+
     chart,two
         .width(384)
         .height(240)
@@ -115,6 +129,8 @@ function makeGraphs(data) {
         .group(h)
         .useViewBoxResizing(true)
     chart,two.render();
+
+// Chart 3
 
     chart,three
         .width(384)
@@ -131,6 +147,8 @@ function makeGraphs(data) {
         .useViewBoxResizing(true)
     chart,three.render();
 
+// Chart 4
+
     chart,four
         .width(386)
         .height(240)
@@ -146,6 +164,8 @@ function makeGraphs(data) {
         .useViewBoxResizing(true)
     chart,four.render();
 
+// Chart 5
+
     chart,five
         .width(386)
         .height(240)
@@ -160,6 +180,8 @@ function makeGraphs(data) {
         .group(k)
         .useViewBoxResizing(true)
     chart,five.render();
+
+// Chart 6
 
         chart,six
         .width(386)
