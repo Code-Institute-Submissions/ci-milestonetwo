@@ -3,8 +3,8 @@ d3.csv("data/kaggle-six-nations.csv").then(makeGraphs);
 function makeGraphs(data) {
     var chart = dc.barChart('#total-outright-wins');
     var chart,two = dc.barChart('#total-grand-slams');
-    var chart,three = dc.barChart('#population');
-    var chart,four = dc.barChart('#total-percent-that-plays');
+    var chart,three = dc.barChart('#triple-crowns');
+    // var chart,four = dc.barChart('#');
     
     const COUNTRY = 'Country';
     const COUNTRY_KEY = 'country';
@@ -12,18 +12,18 @@ function makeGraphs(data) {
     const OUTRIGHT_WINS_KEY = 'outrightWins';
     const GRAND_SLAMS = 'Grand Slams';
     const GRAND_SLAMS_KEY = 'grandSlams';
-    // const TRIPLE_CROWNS = 'Triple Crowns';
-    // const TRIPLE_CROWNS_KEY = 'tripleCrowns';
-    // const WOODEN_SPOONS = 'Wooden Spoons';
-    // const WOODEN_SPOONS_KEY = 'woodenSpoons';
-    // const HEINEKEN_CUP_WINS = 'Heineken Cup Wins';
-    // const HEINEKEN_CUP_WINS_KEY = 'heinekenCupWins';
-    // const HEINEKEN_CUP_RUNNER_UPS = 'Heineken Cup Runner Ups';
-    // const HEINEKEN_CUP_RUNNER_UPS_KEY = 'heinekenCupRunnerUps';
-    const POPULATION = 'Population';
-    const POPULATION_KEY = 'population';
-    const TOTAL_PLAYERS = 'Total Players';
-    const TOTAL_PLAYERS_KEY = 'totalPlayers'
+    const TRIPLE_CROWNS = 'Triple Crowns';
+    const TRIPLE_CROWNS_KEY = 'tripleCrowns';
+    const WOODEN_SPOONS = 'Wooden Spoons';
+    const WOODEN_SPOONS_KEY = 'woodenSpoons';
+    const HEINEKEN_CUP_WINS = 'Heineken Cup Wins';
+    const HEINEKEN_CUP_WINS_KEY = 'heinekenCupWins';
+    const HEINEKEN_CUP_RUNNER_UPS = 'Heineken Cup Runner Ups';
+    const HEINEKEN_CUP_RUNNER_UPS_KEY = 'heinekenCupRunnerUps';
+    // const POPULATION = 'Population';
+    // const POPULATION_KEY = 'population';
+    // const TOTAL_PLAYERS = 'Total Players';
+    // const TOTAL_PLAYERS_KEY = 'totalPlayers'
     // const REGISTERED_PLAYERS = 'Registered Players';
     // const REGISTERED_PLAYERS_KEY = 'registeredPlayers';
 
@@ -44,18 +44,18 @@ function makeGraphs(data) {
     console.log(data);
 
     data.forEach((d) => {
-        d[COUNTRY_KEY] = d[COUNTRY];
-        d[POPULATION_KEY] = Number(d[POPULATION]);
+       d[COUNTRY_KEY] = d[COUNTRY];
+       d[TRIPLE_CROWNS_KEY] = Number(d[TRIPLE_CROWNS]);
     });
 
-    console.log(data);
+     console.log(data);
 
-    data.forEach((d) => {
-        d[COUNTRY_KEY] = d[COUNTRY];
-        d[TOTAL_PLAYERS_KEY] = Number(d[TOTAL_PLAYERS]);
-    });
+    // data.forEach((d) => {
+    //    d[COUNTRY_KEY] = d[COUNTRY];
+    //    d[TOTAL_PLAYERS_KEY] = Number(d[TOTAL_PLAYERS]);
+    //});
 
-    console.log(data);
+    // console.log(data);
 
     // data.forEach((d) => {
     //     d[COUNTRY] = parseDate(d[COUNTRY]);
@@ -66,15 +66,15 @@ function makeGraphs(data) {
     var ndx = crossfilter(data);
     var outrightWinsDimension = ndx.dimension((d) => d[OUTRIGHT_WINS]);
     var grandSlamsDimension = ndx.dimension((d) => d[GRAND_SLAMS]);
-    var populationDimension = ndx.dimension((d) => d[POPULATION]);
-    var totalPlayersDimension = ndx.dimension((d) => d[TOTAL_PLAYERS]);
+     var tripleCrownsDimension = ndx.dimension((d) => d[TRIPLE_CROWNS]);
+    // var totalPlayersDimension = ndx.dimension((d) => d[TOTAL_PLAYERS]);
     // var commitmentSumGroup = programmeDimension.group().reduceSum((d) => d[TOTAL_COMMITMENT_KEY]);
     
     // console.log(commitmentSumGroup.all());
     var g = groupBy(outrightWinsDimension.top(Infinity), OUTRIGHT_WINS_KEY);
     var h = groupBy(grandSlamsDimension.top(Infinity), GRAND_SLAMS_KEY);
-    var i = groupBy(populationDimension.top(Infinity), POPULATION_KEY);
-    var j = groupBy(totalPlayersDimension.top(Infinity), TOTAL_PLAYERS_KEY);
+    var i = groupBy(tripleCrownsDimension.top(Infinity), TRIPLE_CROWNS_KEY);
+    // var j = groupBy(Dimension.top(Infinity), );
     
     chart
         .width(384)
@@ -113,28 +113,28 @@ function makeGraphs(data) {
         .xUnits(dc.units.ordinal)
         .brushOn(false)
         .xAxisLabel(COUNTRY)
-        .yAxisLabel(POPULATION)
-        .dimension(populationDimension)
+        .yAxisLabel(TRIPLE_CROWNS)
+        .dimension(tripleCrownsDimension)
         .barPadding(0.1)
         .outerPadding(0.05)
         .group(i)
         .useViewBoxResizing(true)
     chart,three.render();
 
-    /*chart,four
-        .width(386)
-        .height(240)
-        .x(d3.scaleBand())
-        .xUnits(dc.units.ordinal)
-        .brushOn(false)
-        .xAxisLabel(COUNTRY)
-        .yAxisLabel(TOTAL_PLAYERS)
-        .dimension(totalPlayersDimension)
-        .barPadding(0.1)
-        .outerPadding(0.05)
-        .group(j)
-        .useViewBoxResizing(true)
-    chart,four.render();*/
+    //chart,four
+    //    .width(386)
+    //    .height(240)
+    //    .x(d3.scaleBand())
+    //    .xUnits(dc.units.ordinal)
+    //    .brushOn(false)
+    //    .xAxisLabel(COUNTRY)
+    //    .yAxisLabel()
+    //    .dimension(Dimension)
+    //    .barPadding(0.1)
+    //    .outerPadding(0.05)
+    //    .group()
+    //    .useViewBoxResizing(true)
+    //chart,four.render();
 
 }
 
