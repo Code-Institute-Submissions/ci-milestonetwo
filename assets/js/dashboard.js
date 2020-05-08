@@ -28,8 +28,6 @@ function makeGraphs(data) {
     // const TOTAL_PLAYERS_KEY = 'totalPlayers'
     // const REGISTERED_PLAYERS = 'Registered Players';
     // const REGISTERED_PLAYERS_KEY = 'registeredPlayers';
-
-    // var parseDate = d3.timeParse("%d/%m/%Y");
   
     data.forEach((d) => {
         d[COUNTRY_KEY] = d[COUNTRY];
@@ -72,12 +70,6 @@ function makeGraphs(data) {
     });
 
     console.log(data);
-
-    // data.forEach((d) => {
-    //     d[COUNTRY] = parseDate(d[COUNTRY]);
-    //     d[STARTDATE_KEY] = parseDate(d[STARTDATE_KEY]);
-    //     d[TOTAL_COMMITMENT_KEY] = Number(d[TOTAL_COMMITMENT_KEY].replace(/[^0-9.-]+/g,""));
-    // });
     
     var ndx = crossfilter(data);
     var outrightWinsDimension = ndx.dimension((d) => d[OUTRIGHT_WINS]);
@@ -86,9 +78,7 @@ function makeGraphs(data) {
     var woodenSpoonsDimension = ndx.dimension((d) => d[WOODEN_SPOONS]);
     var heinekenCupWinsDimension = ndx.dimension((d) => d[HEINEKEN_CUP_WINS]);
     var heinekenCupRunnerUpsDimension = ndx.dimension((d) => d[HEINEKEN_CUP_RUNNER_UPS]);
-    // var commitmentSumGroup = programmeDimension.group().reduceSum((d) => d[TOTAL_COMMITMENT_KEY]);
     
-    // console.log(commitmentSumGroup.all());
     var g = groupBy(outrightWinsDimension.top(Infinity), OUTRIGHT_WINS_KEY);
     var h = groupBy(grandSlamsDimension.top(Infinity), GRAND_SLAMS_KEY);
     var i = groupBy(tripleCrownsDimension.top(Infinity), TRIPLE_CROWNS_KEY);
