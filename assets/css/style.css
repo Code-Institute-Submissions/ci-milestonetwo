@@ -342,14 +342,20 @@ div#map {
 #total-outright-wins {
     position: relative;
     margin-right: 50px;
+    margin-top: 50px;
 }
 
 #total-grand-slams {
     position: relative;
+    margin-right: 50px;
+    margin-top: 50px;
 }
 
 #population {
     position: relative;
+    margin-right: 50px;
+    margin-top: 50px;
+    height: 100%;
 }
 
 #total-percent-that-plays {
