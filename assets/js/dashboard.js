@@ -6,6 +6,7 @@ function makeGraphs(data) {
     var chart,three = dc.barChart('#triple-crowns');
     var chart,four = dc.barChart('#wooden-spoons');
     var chart,five = dc.barChart('#heineken-cup-wins');
+    var chart,six = dc.barChart('#heineken-cup-runner-ups');
     
     const COUNTRY = 'Country';
     const COUNTRY_KEY = 'country';
@@ -65,12 +66,12 @@ function makeGraphs(data) {
 
     console.log(data);
 
-    //     data.forEach((d) => {
-    //    d[COUNTRY_KEY] = d[COUNTRY];
-    //    d[WOODEN_SPOONS_KEY] = Number(d[WOODEN_SPOONS]);
-    //});
+    data.forEach((d) => {
+        d[COUNTRY_KEY] = d[COUNTRY];
+        d[HEINEKEN_CUP_RUNNER_UPS_KEY] = Number(d[HEINEKEN_CUP_RUNNER_UPS]);
+    });
 
-    // console.log(data);
+    console.log(data);
 
     // data.forEach((d) => {
     //     d[COUNTRY] = parseDate(d[COUNTRY]);
@@ -84,6 +85,7 @@ function makeGraphs(data) {
     var tripleCrownsDimension = ndx.dimension((d) => d[TRIPLE_CROWNS]);
     var woodenSpoonsDimension = ndx.dimension((d) => d[WOODEN_SPOONS]);
     var heinekenCupWinsDimension = ndx.dimension((d) => d[HEINEKEN_CUP_WINS]);
+    var heinekenCupRunnerUpsDimension = ndx.dimension((d) => d[HEINEKEN_CUP_RUNNER_UPS]);
     // var commitmentSumGroup = programmeDimension.group().reduceSum((d) => d[TOTAL_COMMITMENT_KEY]);
     
     // console.log(commitmentSumGroup.all());
@@ -92,6 +94,7 @@ function makeGraphs(data) {
     var i = groupBy(tripleCrownsDimension.top(Infinity), TRIPLE_CROWNS_KEY);
     var j = groupBy(woodenSpoonsDimension.top(Infinity), WOODEN_SPOONS_KEY);
     var k = groupBy(heinekenCupWinsDimension.top(Infinity), HEINEKEN_CUP_WINS_KEY);
+    var l = groupBy(heinekenCupRunnerUpsDimension.top(Infinity), HEINEKEN_CUP_RUNNER_UPS_KEY);
     
     chart
         .width(384)
@@ -167,6 +170,21 @@ function makeGraphs(data) {
         .group(k)
         .useViewBoxResizing(true)
     chart,five.render();
+
+        chart,six
+        .width(386)
+        .height(240)
+        .x(d3.scaleBand())
+        .xUnits(dc.units.ordinal)
+        .brushOn(false)
+        .xAxisLabel(COUNTRY)
+        .yAxisLabel(HEINEKEN_CUP_RUNNER_UPS)
+        .dimension(heinekenCupRunnerUpsDimension)
+        .barPadding(0.1)
+        .outerPadding(0.05)
+        .group(l)
+        .useViewBoxResizing(true)
+    chart,six.render();
 
 }
 
