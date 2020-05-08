@@ -407,8 +407,13 @@ footer {
     color: #fafafa;
     min-height: 120px;
     margin: 20px;
+    margin-bottom: 0;
 }
 
-#footer-details {
-    margin: 20px;
+.six-nation-link {
+    margin-top: 5%;
 }
+
+/*#footer-details {
+    margin: 20px;
+}*/
