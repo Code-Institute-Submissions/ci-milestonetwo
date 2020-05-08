@@ -303,44 +303,16 @@ body, html {
     opacity: 0.8;
 }
 
-/*.navbar-custom {
-    background-color: #0d2ff0;
-    color: #fafafa;
-}*/
-
 /*----------------------------------------Logo---*/
 
 #logo {
     position: relative;
     margin-top: 20px;
-    /*opacity: 1;*/
-    /*background-blend-mode: multiply;*/
-    /*pointer-events: none;*/
     display: flex;
     width: 100%;
     justify-content: center;
     list-style: none;
 }
-
-/*#england {
-    margin-right: 35px;
-}
-
-#france {
-    margin-right: 35px;
-}
-
-#ireland {
-    margin-right: 35px;
-}
-
-#italy {
-    margin-right: 35px;
-}
-
-#scotland {
-    margin-right: 35px;
-}*/
 
 /*----------------------------------------Map---*/
 
@@ -432,7 +404,3 @@ footer {
 .six-nation-link {
     margin-top: 5%;
 }
-
-/*#footer-details {
-    margin: 20px;
-}*/
