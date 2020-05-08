@@ -339,6 +339,11 @@ div#map {
 
 /*----------------------------------------Graphs---*/
 
+#graphs {
+    float: left;
+    text-align: center;
+}
+
 #total-outright-wins {
     position: relative;
     margin-left: 15px;
