@@ -341,7 +341,8 @@ div#map {
 
 #total-outright-wins {
     position: relative;
-    margin-right: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 50px;
     height: 300px;
     width: 360px;
@@ -349,7 +350,7 @@ div#map {
 
 #total-grand-slams {
     position: relative;
-    margin-right: 40px;
+    margin-right: 20px;
     margin-top: 50px;
     height: 300px;
     width: 360px;
@@ -357,7 +358,7 @@ div#map {
 
 #triple-crowns {
     position: relative;
-    margin-right: 40px;
+    margin-right: 20px;
     margin-top: 50px;
     height: 300px;
     width: 360px;
@@ -365,24 +366,25 @@ div#map {
 
 #wooden-spoons {
     position: relative;
-    margin-right: 40px;
-    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
     height: 300px;
     width: 360px;
 }
 
 #heineken-cup-wins {
     position: relative;
-    margin-right: 40px;
-    margin-top: 0px;
+    margin-right: 20px;
+    margin-top: 20px;
     height: 300px;
     width: 360px;
 }
 
 #heineken-cup-runner-ups {
     position: relative;
-    margin-right: 40px;
-    margin-top: 0px;
+    margin-right: 20px;
+    margin-top: 20px;
     height: 300px;
     width: 360px;
 }
