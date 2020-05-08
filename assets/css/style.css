@@ -343,7 +343,7 @@ div#map {
     position: relative;
     margin-right: 40px;
     margin-top: 50px;
-    height: 594px;
+    height: 300px;
     width: 360px;
 }
 
@@ -351,7 +351,7 @@ div#map {
     position: relative;
     margin-right: 40px;
     margin-top: 50px;
-    height: 594px;
+    height: 300px;
     width: 360px;
 }
 
@@ -359,31 +359,31 @@ div#map {
     position: relative;
     margin-right: 40px;
     margin-top: 50px;
-    height: 594px;
+    height: 300px;
     width: 360px;
 }
 
 #wooden-spoons {
     position: relative;
     margin-right: 40px;
-    margin-top: 50px;
-    height: 594px;
+    margin-top: 0px;
+    height: 300px;
     width: 360px;
 }
 
 #heineken-cup-wins {
     position: relative;
     margin-right: 40px;
-    margin-top: 50px;
-    height: 594px;
+    margin-top: 0px;
+    height: 300px;
     width: 360px;
 }
 
 #heineken-cup-runner-ups {
     position: relative;
     margin-right: 40px;
-    margin-top: 50px;
-    height: 594px;
+    margin-top: 0px;
+    height: 300px;
     width: 360px;
 }
 
