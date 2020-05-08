@@ -17,7 +17,20 @@ body {
     position: relative;
     line-height: 25px;
     text-align: left;
-    text-transform: bold;
+}
+
+#heading-rct {
+    color: black;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 20px
+}
+
+#p-rct {
+    color:black;
+    position: relative;
+    line-height: 25px;
+    text-align: left;
 }
 
 /*----------------------------------------Background Image/Images---*/
