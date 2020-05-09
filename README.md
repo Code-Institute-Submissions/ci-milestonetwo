@@ -64,7 +64,7 @@ the graphs.
 
 ## Features
 
-[Home Page](https://github.com/mattjboland/ci-milestonetwo/)
+[Home Page](https://mattjboland.github.io/ci-milestonetwo/)
 
 * Navbar - I used this to help the user navigate to other pages of the website easily and effectively
 * Images - I used images to style the website to give depth to the pages and also for the user to visualise stadiums
