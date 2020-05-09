@@ -220,10 +220,12 @@ modified the sizes of the logos and flags on paint. The larger images were modif
 ## Acknowledgements
 
 * [Code Institute](https://codeinstitute.net/) I used parts of code from the modules, coursework and projects. 
-* [Bootstrap](https://getbootstrap.com/) I used Bootstraps Navbar, Carousel and Form examples in my website
-* [W3schools](https://www.w3schools.com/) I used this website when I encountered some problems with my code
-* [Slack](https://slack.com/intl/en-ie/) I also used this website for help on code and errors
-* [StackOverflow](https://stackoverflow.com/) This website was used as a reference for help and tips
+* [Bootstrap](https://getbootstrap.com/) I used Bootstraps Navbar and grid examples in my website.
+* [StackOverflow](https://stackoverflow.com/) This website was used as a reference for problem and tips.
+* [W3schools](https://www.w3schools.com/) I used this website when I encountered some problems with my code.
+* [Slack](https://slack.com/intl/en-ie/) I also used this website for help on code and errors.
+* [CSSTricks](https://css-tricks.com/) I also found this site useful for hints and tips.
 * Guido Cecilio, Guido is my mentor and his help and patience on this project was incredible. I learned so much from 
 our meetings and without his knowledge and information it would have been an impossible task. I am so grateful for his 
 help.
+* Paul Brennan, a friend of mine who was always at the end of the phone to help with some issues I couldnt resolve.
