@@ -50,13 +50,21 @@ the graphs.
 
 **I used the following features on the website for the user to achieve these goals**
 
+* Links to the homepage of each participating team
+* Description of the of the Six Nations Championship
+* Description of the purpose for this website
+* Map to discover the location of the stadiums
+* Map also to find and access the hotels surround the stadiums
+* Link to a website to book flights
+* Link to Six Nations homepage
+
 ## Wireframe Mockups
 
 * [Wireframe Mockups](https://github.com/mattjboland/ci-milestonetwo/blob/master/assets/wireframe-mockups/Rugby%20City%20Travel.pdf)
 
 ## Features
 
-[Home Page]
+[Home Page](https://github.com/mattjboland/ci-milestonetwo/)
 
 ## Technologies Used
 
