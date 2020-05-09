@@ -68,10 +68,12 @@ the graphs.
 
 ## Technologies Used
 
-* HTML - This is used as the layout to build the website
-* CSS - This is used to style the website
+* [HTML] - This is used as the layout to build the website
+* [CSS] - This is used to style the website
 * [Bootstrap](https://getbootstrap.com/) - This is used for the layout and also used grids/rows for the responsive design
 * [Font Awesome](https://fontawesome.com/) - This is used for some icons in the website
+* [JavaScript](https://www.javascript.com/) - This is used for Google Maps API and for displaying the graphs
+* [cdn] - Content delivery networks were used by using !bcdnjs in html very useful for added <script>
 
 ## Testing
 
