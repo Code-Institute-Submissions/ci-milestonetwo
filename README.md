@@ -198,15 +198,28 @@ the information from Google, the APIs and the code for the site is all there to 
 stadium locations were on the stadium map and when clicked the hotels would be visable on the hotels map. All the code
 is there and with various different animations like Animation.DROP can be used and to make it look and work better.
 
+I used a link to Skyscanner for flights. I took the image from Wikipedia and used the image as the link to the site.
+
+For the footer element again I used Code from CI Coursework with image from Wikipedia for the Six Nation link, also from 
+Wikipedia. Within the element I also used Code from CI coursework and provided a link to my Github repositories. I got 
+this idea from CI and set up an image in my Github and used that as the link. I was going to have some other element like
+a call from the GitHub to view repositories but again time was an issue. Maybe this is something I can add is later.
+
+All the teams .html pages are all information and images used from Wikipedia. I was careful using the info and I cross
+referenced the info to make sure at the time of development it was accurate.
+
+For the dashboard.html, this was orignally planned for the statistics to be included on the home teams .html page. But on 
+reflection and advise from Guido it was decided to have this enitrely separate and it really works and really adds to the 
+website. So I have Guido my mentor to thank for that.
 
 **Media Content**
 
-
+All media content was sepcifically taken from the Wikipedia wesite. Downloaded and modified to fit when and where needed. I 
+modified the sizes of the logos and flags on paint. The larger images were modified with CSS styling.
 
 ## Acknowledgements
 
-* [Code Institute](https://codeinstitute.net/) I used parts of code from the modules, coursework and projects. All
-    the media, pictures, audio clips and video were supplied by Code Institute
+* [Code Institute](https://codeinstitute.net/) I used parts of code from the modules, coursework and projects. 
 * [Bootstrap](https://getbootstrap.com/) I used Bootstraps Navbar, Carousel and Form examples in my website
 * [W3schools](https://www.w3schools.com/) I used this website when I encountered some problems with my code
 * [Slack](https://slack.com/intl/en-ie/) I also used this website for help on code and errors
