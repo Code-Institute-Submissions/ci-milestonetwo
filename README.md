@@ -91,7 +91,16 @@ or exchanges. Maybe with the possiblitly of running local competitions for ticke
 
 ## Testing
 
-I have thoroughly tested the website and was unable to find any bad links. Everything is working as is supposed to. 
+I have thoroughly tested the website and was unable to find any bad links. Everything is working as is supposed to. I 
+clicked all links to make sure everything is as it should be. It was all working fine until I came across a problem with 
+my gh-avatar link to GitHub, it wasnt working correctly. On inspection I had a mistake in the link and fixed 
+accordingly. 
+
+I did a lot of testing and checking the Map functionality. 
+
+I was also having an issue with the logo, Ireland the link wasnt loading. I tried several time but the page wasnt loading.
+The link was working though just the page wasnt loading. After checking several times the link it was correct. The page 
+after a while loaded after the error 500 Internal Server Error so the issue wasnt the link.
 
 ## Issues and Bugs
 
