@@ -148,6 +148,13 @@ encountered a problem searching on Google along with StackOverflow provided the 
 researching I was able to learn that you can use some custom items for the marker so I replaced the original red marker
 in the stadiums map with a rugby_ball.png I found.
 
+Another issue I had with the testing for the maps is because the APIs are restricted so temporarily testing was a
+nightmare. I had to use the deployed or published site to make sure the maps were working correctly. One reflection of 
+this problem I couldn have just unrestricted everything on the API but I wasnt sure if that was the best way as the calls
+from the API are restricted.
+
+
+
 ## Validation
 
 I have checked the code on [https://validator.w3.org/nu/#textarea] 
