@@ -23,9 +23,36 @@ gone on many years before they travelled to the stadiums to enjoy a rugby game.
 
 ## UX
 
+The purpose of the website project is to create a website aimed at rugby fans from all Six Countries involved. To provide
+an informative and functional website catering to the needs of travelling fans or even hometown fans. On this website they 
+will have access to locations of each stadium in each city of the participating teams. It will show precise locations of
+each stadium giving the user knowledge of the surrounding areas through the use of Google Maps. Not only that it will
+also show the precise locations of all the hotels in areas surrounding the stadiums. This will enable the user to carefully
+choose hotels based on access and location that will suit their needs.
+
+The website will also provide the links to each choosen hotel where they can explore the hotels and choose according to the
+needs of each user. It will also provide links to other travel websites so they can choose flights that will help them
+get to each destination. There will also be links to each homepage of each of the nations, where information on matches,
+teams and much more will be available. With that, a hompage to the Six Nations Championship is included which will also
+give the same information plus many more like tickets and competitions.
+
+I also wanted to provide some information and history about the stadiums they fans are going to visit. Like me I have visited
+many of the stadiums but never knew any history. I learned so much researching and even about the closest to me Aviva 
+Stadium (previously Lansdowne Road). Some are much more modern than others but some dating back to 1872!! There is also 
+information about each team and how they have performed in the Rugby World Cup, some better than others but it is 
+interesting to learn.
+
+On each homepage I also wanted to have some statistics displayed, about past performances in the Six Nations Championship. 
+This was extented in 2000 with the addition of Italy so the statistics are from 2000 onwards. On a mentoring session
+with Guido Cecilio he told me about maybe creating a dashboard to display some graphs and render the statistics. I had 
+originally planned to have this on the individual team page but this made much more sense. So with his help we created 
+the graphs.
+
 **I used the following features on the website for the user to achieve these goals**
 
 ## Wireframe Mockups
+
+* [Wireframe Mockups](https://github.com/mattjboland/ci-milestonetwo/blob/master/assets/wireframe-mockups/Rugby%20City%20Travel.pdf)
 
 ## Features
 
