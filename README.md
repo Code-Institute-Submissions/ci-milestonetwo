@@ -153,8 +153,6 @@ nightmare. I had to use the deployed or published site to make sure the maps wer
 this problem I couldn have just unrestricted everything on the API but I wasnt sure if that was the best way as the calls
 from the API are restricted.
 
-
-
 ## Validation
 
 I have checked the code on [https://validator.w3.org/nu/#textarea] 
@@ -180,6 +178,25 @@ way works best for me as I find it easily navigated.
 ## Credits
 
 **Content**
+
+For the NavBar I used BootStrap NavBar based from the CI coursework and similar to the one I previously used. The most
+of this is directly from BootStrap ut modified it to suit my page and from ideas on the course content.
+
+The Logos for the teams was based from BootStrap but styled with images from Wikipedia. I downloaded these and adjusted
+the to fit. If I had more time I would probably try to find ones without a white background like the Ireland logo but time
+was against me. I will try solve this for future. I did try through CSS but I couldnt figure it out.
+
+Headings and Paragraphs are standard, but styled and modified to suit this website. Added some images to the .html pages
+for the teams. Also used a specific image of each home stadium for each home team page for effect. All these images were
+taken from Wikipedia as well as the facts and figures for descriptions. I did cross reference these with the Kaggle Six
+Nations Data csv file I recieved from Guido as well as other reputable Six Nations Sites to make sure information at the 
+time was correct. 
+
+For the Stadium maps. I used code from CI coursework on a module for the Resume Project along with code from Google Maps
+API and Google Places API. I manipulated the code for the maps to show the stadiums accurate locations. Then I used all 
+the information from Google, the APIs and the code for the site is all there to be used. I was able to modify it that the 
+stadium locations were on the stadium map and when clicked the hotels would be visable on the hotels map. All the code
+is there and with various different animations like Animation.DROP can be used and to make it look and work better.
 
 
 **Media Content**
