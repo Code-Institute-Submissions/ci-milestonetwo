@@ -96,11 +96,25 @@ clicked all links to make sure everything is as it should be. It was all working
 my gh-avatar link to GitHub, it wasnt working correctly. On inspection I had a mistake in the link and fixed 
 accordingly. 
 
-I did a lot of testing and checking the Map functionality. 
+I did a lot of testing and checking the Map functionality. I created a testing repository separate to the project 
+repository [https://github.com/mattjboland/testing] this enabled me to set up and test the maps functionality as well
+as continue with the project. The idea behind this was to keep separate and merge at the end. It was a great way to get
+everything thing right and I could easily go back and forth. I found if something went wrong or wasn't exactly how it
+should have been it didn't immediately affect other element of the project going on around. I implemented a testing
+repository on my last project where I copied code out and was able to test and solve problems easy and then merge it back
+when ready.
 
 I was also having an issue with the logo, Ireland the link wasnt loading. I tried several time but the page wasnt loading.
 The link was working though just the page wasnt loading. After checking several times the link it was correct. The page 
 after a while loaded after the error 500 Internal Server Error so the issue wasnt the link.
+
+Another problem I encountered was the display on the bg images used throughout the website. On some browser the background
+opacity was easily fixed in css. But some browsers the backgound images was too bright ang hindered the text in the 
+paragraphs making it very hard to read. I tried many solutions but none of which seemed to work. Changing the text, 
+changing the opacity, adding a z-index but still no solution. It was mainly occurring on my iPhone 11 and iPad mini. So
+it was time for Google. It was then I realised that the browsers on Apple (Safari) and some other do not support the 
+opacity feature. Chrome which is the main browser I use was perfect eveytime so it was a real head scratcher, but was so
+relieved when I discover this.
 
 ## Issues and Bugs
 
