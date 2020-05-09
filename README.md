@@ -140,6 +140,14 @@ for each team but Guido thought it would be better to have on a dashboard. It do
 the values from the .csv file but patience I was able to figure it out. I would have moced this code to the testing repo
 but that was too full with the maps so I solved the issue there.
 
+I had some issues with the with the maps.js for the hotels. The use of Google Maps APIs is tricky but all the information
+and code is there and its just a matter of using it right. When I was adding the stadium to the hotel map along with all
+the green hotel icons. When I searched the Google Places API keeps the list of all the results so I had to add the 
+stadium to the end of the results so that it would be shown too. Most of the code for this was from the APIs but when I 
+encountered a problem searching on Google along with StackOverflow provided the answers need to resolve the issues. while
+researching I was able to learn that you can use some custom items for the marker so I replaced the original red marker
+in the stadiums map with a rugby_ball.png I found.
+
 ## Validation
 
 I have checked the code on [https://validator.w3.org/nu/#textarea] 
