@@ -66,6 +66,13 @@ the graphs.
 
 [Home Page](https://github.com/mattjboland/ci-milestonetwo/)
 
+* Navbar - I used this to help the user navigate to other pages of the website easily and effectively
+* Images - I used images to style the website to give depth to the pages and also for the user to visualise stadiums
+* Maps - Maps are used to for the user to see locations and get familar with surrounding areas
+* Maps - Also used to locate stadiums and hotel for the user to explore
+* Links - Various links used to get further information and travel routes
+* Graphs - Used to give information to the user about teams success throughout the championships history
+
 ## Technologies Used
 
 * [HTML] - This is used as the layout to build the website
