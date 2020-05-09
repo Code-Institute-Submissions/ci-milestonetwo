@@ -43,6 +43,36 @@ body {
     text-align: left;
 }
 
+.p-england {
+    color: black;
+    position: relative;
+}
+
+.p-france {
+    color: black;
+    position: relative;
+}
+
+.p-ireland {
+    color: black;
+    position: relative;
+}
+
+.p-italy {
+    color: black;
+    position: relative;
+}
+
+.p-scotland {
+    color: black;
+    position: relative;
+}
+
+.p-wales {
+    color: black;
+    position: relative;
+}
+
 /*----------------------------------------Background Image/Images---*/
 
 body, html {
