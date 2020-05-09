@@ -73,6 +73,13 @@ the graphs.
 * Links - Various links used to get further information and travel routes
 * Graphs - Used to give information to the user about teams success throughout the championships history
 
+### Features For Future Additions
+
+I would like to include in future additions the possiblitly for the user to be able to book directly on site without having
+to visit a third party site. Would also like to see the possibility of having a ticket sale or swap for geniune rugby fans.
+But would like to see if possible for the exchanges to on face value only no ticket touts only geniune reasons for swap
+or exchanges. Maybe with the possiblitly of running local competitions for tickets, or match day photos etc.
+
 ## Technologies Used
 
 * [HTML] - This is used as the layout to build the website
