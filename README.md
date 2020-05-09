@@ -108,9 +108,23 @@ after a while loaded after the error 500 Internal Server Error so the issue wasn
 
 I have checked the code on [https://validator.w3.org/nu/#textarea] 
 
+I checked the code for all .html and style.css. No major errors were reported, however some small minor errors were
+occuring. So I addressed all them and fixed where necessary. The main repeating error was section lacks heading so that 
+was easily solved. Another error was a heading tag was used but empty so I fixed that.
+
+Another error I came across was the images not having alt="" so that was an easy fix. 
+
 ## Deployment
 
-I deployed my website via GitHub pages and is currently published at 
+I deployed my website via GitHub pages and is currently published at [https://mattjboland.github.io/ci-milestonetwo/]
+
+This is the one section I have previously lacked on. I learned from my last project the my commit messages were vague
+or even non existent. So for this project, I made sure when commiting to GitHub that my messages were clear and consise
+as to be easily interpreted. I may have missed a few here and there but I generally feel a major improvement was made.
+
+I had orignally used cloud9 and then was made to switch to AWS cloud which I didnt find easy to use. I then used GitHub 
+and Gitpod and found this a much better way and easier. All code was in GitPod and committed to GitHub. I feel this
+way works best for me as I find it easily navigated. 
 
 ## Credits
 
