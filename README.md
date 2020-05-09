@@ -118,6 +118,28 @@ relieved when I discover this.
 
 ## Issues and Bugs
 
+As with a lot of project the issues and bugs are always present. I have learned from this to keep note a bit better of a 
+few more to help with this section. But probably best I cant remember them all as this section would be far too long.
+
+Using BootStrap code especially rows and columns can cause issues, especially when usin them in a specific way. I had
+many problems with location of the icons in the row and this caused an issus when viewing on smaller browser screens. I 
+finally fixed the problem with a lot of researching on BootStrap itself but mainly Google and StackOverflow.
+
+I also had a problem with the NavBar, it was correctly or easily moving throught the links and with a quick visit again to 
+StackOverflow I quickly found the solution. It should have been clear to me on Bootstrap but for some reason it wasn't 
+coming easily to me although it was there. It was as simple as moving the active element to right .html and it worked
+perfectly.
+
+Again this issue or a similar one was occuring with the footer. Especially on my dashboard.html. The footer was covering
+all the graphs and I couldnt figure it out. Unfortunately I ran out of time on this one so I just removed the footer
+entirely from the dashboard as it doesnt really serve a purpose there. Its only a temporary solution but I will continue
+to find the correct solution for this.
+
+With the dashboard.html I had issues with rendering the graphs. I had orignally intended on having this on each html page 
+for each team but Guido thought it would be better to have on a dashboard. It does look better. It was tricky to manipulate
+the values from the .csv file but patience I was able to figure it out. I would have moced this code to the testing repo
+but that was too full with the maps so I solved the issue there.
+
 ## Validation
 
 I have checked the code on [https://validator.w3.org/nu/#textarea] 
