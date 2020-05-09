@@ -422,6 +422,10 @@ div#hotels {
     width: 400px;
 }
 
+#skyscanner {
+    position: relative;
+}
+
 /*----------------------------------------Footer---*/
 
 footer {
